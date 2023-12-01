@@ -1,4 +1,5 @@
 <?php
+include './includes/preloader.php';
 include './includes/navbar_home.php';
 ?>
 
@@ -100,30 +101,98 @@ include './includes/navbar_home.php';
 
         </div>
     </div>
-    
+
     <div class="col-md-10 text-center mb-4">
 
-<div class="divider d-flex align-items-center my-4 mb-0">
-    <p class="text-center mx-2 mb-0 text-white text-section">QUEM SOMOS</p>
-</div>
-<a href="#" class="icon-circle-chevron"><i class="fa-solid fa-circle-chevron-down mt-2"></i></a>
-</div>
+        <div class="divider d-flex align-items-center my-4 mb-0">
+            <p class="text-center mx-2 mb-0 text-white text-section">QUEM SOMOS</p>
+        </div>
+        <a href="#" class="icon-circle-chevron"><i class="fa-solid fa-circle-chevron-down mt-2"></i></a>
+    </div>
 
 
 
-<div class="col-md-8 mt-4">
+    <div class="col-md-8 mt-4">
 
-        <div class="text-white mb-5">
+        <div class="text-white mb-4">
 
-        <p>Somos estudantes da área de tecnologia e sabendo da importância do portfólio para a área profissional, desenvolvemos um site com o intuito a principio de desenvolver os nossos conhecimentos na prática criando nosso próprio portfólio. Ao andar do desenvolvimento, resolvemos desenvolver um site simples, mas com a intenção de ajudar outros profissionais na criação do seu primeiro portfólio com modelo simples e completo.</p>
+            <p>Somos estudantes da área de tecnologia e sabendo da importância do portfólio para a área profissional, desenvolvemos um site com o intuito a principio de desenvolver os nossos conhecimentos na prática criando nosso próprio portfólio. Ao andar do desenvolvimento, resolvemos desenvolver um site simples, mas com a intenção de ajudar outros profissionais na criação do seu primeiro portfólio com modelo simples e completo.</p>
 
-<p>Espero que vocês gostem. Muito sucesso para todos!</p>
-<i><a href="#" class="text-white"><strong>Clique aqui</strong></a> e crie o seu portfólio.</i>
+            <p>Espero que vocês gostem. Muito sucesso para todos!</p>
+            <i><a href="#" class="text-white"><strong>Clique aqui</strong></a> e crie o seu portfólio.</i>
 
         </div>
     </div>
-    
-    <!--Grid column-->
+
+    <div class="col-md-8 mb-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex align-items-center mt-3 mb-3">
+                            <img src="./img/talita.png" alt="Trendy Pants and Shoes" class="img-fluid ms-2" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body ms-2 mt-3">
+                                <h5 class="card-title">Talita Castro Freitas</h5>
+                                <p class="card-text text-muted">
+                                    <i>Analista de Desen. de Sistema (Fullstack).</i>
+                                </p>
+
+                                <div class="card-header mb-3" style="background-color: #fff;"></div>
+
+                                <div class="row">
+                                    <p class="card-text">
+
+                                        <small class="text-muted me-2"><i>Redes sociais:</i></small>
+                                        <a href="#" class="me-2 git"> <i class="fa-brands fa-github"></i> </a>
+                                        <a href="#" class="me-2 linkedin"> <i class="fa-brands fa-linkedin"></i> </a>
+                                        <a href="#" class="me-2 g"> <i class="fa-solid fa-g"></i> </a>
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex align-items-center mt-3 mb-3">
+                            <img src="./img/caique.png" alt="Trendy Pants and Shoes" class="img-fluid ms-2" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body ms-2 mt-3">
+                                <h5 class="card-title">Caíque Castro Santana</h5>
+                                <p class="card-text text-muted">
+                                    <i>Desenvolvedor Fullstack.</i>
+                                </p>
+
+                                <div class="card-header mb-3" style="background-color: #fff;"></div>
+
+                                <div class="row">
+                                    <p class="card-text">
+
+                                        <small class="text-muted me-2"><i>Redes sociais:</i></small>
+                                        <a href="#" class="me-2 git"> <i class="fa-brands fa-github"></i> </a>
+                                        <a href="#" class="me-2 linkedin"> <i class="fa-brands fa-linkedin"></i> </a>
+                                        <a href="#" class="me-2 g"> <i class="fa-solid fa-g"></i> </a>
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          
+
+        </div>
+    </div>
+
 </div><!--Grid row-->
 
 

@@ -26,7 +26,7 @@ include './includes/header.php';
 
 
 
-       <button class="btn btn-md btn-login" type="button">SAIR</button> </a>
+       <a href="./index.php" class="btn btn-md btn-login" type="button">SAIR </a>
     </div>
   </div>
 </nav>
